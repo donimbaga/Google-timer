@@ -128,3 +128,16 @@ body {
   font-weight: lighter;
   color: #a8a8a8;
 }
+
+.timer-header img {
+  width: 16px;
+  height: 16px;
+}
+
+.timer-header i {
+  padding: 0;
+  margin: 0;
+}
+
+.timer-header h3 {
+}
