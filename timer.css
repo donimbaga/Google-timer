@@ -126,12 +126,11 @@ body {
 .timer-header h3 {
   font-size: 0.8em;
   font-weight: lighter;
-  color: #a8a8a8;
 }
 
 .timer-header img {
-  width: 16px;
-  height: 16px;
+  width: 14px;
+  height: 14px;
 }
 
 .timer-header i {
@@ -139,5 +138,28 @@ body {
   margin: 0;
 }
 
-.timer-header h3 {
+.timer-header ul {
+  display: flex;
+  justify-content: space-around;
+  width: 8vw;
+}
+
+.timer-header ul:last-child {
+  width: 11vw;
+}
+
+.tab {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid red;
+}
+
+.first-icon {
+  background: url("hourglass.svg");
+  display: block;
+}
+
+.sec-icon {
+  background: url("timer.svg");
+  display: block;
 }
