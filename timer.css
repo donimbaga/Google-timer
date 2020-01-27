@@ -155,16 +155,20 @@ body {
 
 .tab > div {
   box-sizing: border-box;
-  border: 1px solid red;
-  width: 100%;
+  width: 50%;
   height: 100%;
   cursor: pointer;
   display: flex;
   justify-content: space-around;
   align-items: center;
-  padding: 0px 15%;
+  padding: 0 20%;
 }
 
 .tab > div:last-child {
-  padding: 0px 11%;
+  padding: 0 17%;
 }
+
+.tab > div:hover {
+  border-bottom: 2px solid #4285F4;
+}
+
