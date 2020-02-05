@@ -109,80 +109,104 @@ body {
 }
 
 .timer-box {
-  width: 110vh;
-  height: 40vh;
-  border: 1px solid #dfe1e5;
-  border-radius: 10px;
+  width: 115vh;
+  height: 50vh;
+  border: 2px solid #dfe1e5;
+  border-radius: 5px;
   display: flex;
   flex-direction: column;
 }
 
-.timer-header {
-  border-bottom: 1px solid #dfe1e5;
-  height: 10vh;
-}
-
-.timer-header h3 {
-  font-size: 0.8em;
-  font-weight: lighter;
-}
-
-.timer-header img {
-  width: 14px;
-  height: 14px;
-}
-
-.timer-header i {
-  padding: 0;
-  margin: 0;
-}
-
-.timer-header ul {
-  display: flex;
-  justify-content: space-around;
-  width: 8vw;
-}
-
-.timer-header ul:last-child {
-  width: 11vw;
-}
-
 .tab {
+  display: flex;
   box-sizing: border-box;
+  border-bottom: 1px solid #dfe1e5;
   color: #bbbbbb;
-  width: inherit;
-  height: inherit;
-  display: flex;
+  width: 100%;
+  height: 12vh;
 }
 
-.tab > div {
-  box-sizing: border-box;
+.tab button {
+  text-align: center;
+  background-color: inherit;
   width: 50%;
-  height: 100%;
+  border: none;
   cursor: pointer;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  padding: 0 20%;
+  outline: none;
 }
 
-.tab > div:last-child {
-  padding: 0 17%;
+.tab button span {
+  margin-left: 10px;
+  font-size: 0.8em;
+  text-transform: uppercase;
+  color: #9c9897;
 }
 
-.tab > div:hover {
-  color: #393e46;
+.tab button span:last-child {
 }
 
-.active-tab {
-  border-bottom: 2px solid #4285F4;  
-  color: #4285F4;
+.tab button span:hover {
+  color: #333131;
+}
+
+.tab button:active {
+  border-bottom: 2px solid #4285F4;
 }
 
 .timer-content {
-  height: 20vh;
+  height: 25vh;
 }
 
 .timer-footer {
   border-top: 1px solid #dfe1e5;	
+  height: 13vh;
+  display: flex;
+  align-items: center; 
+  justify-content: center;
+}
+
+.footer-wrapper {
+  box-sizing: border-box;
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-wrapper button {
+  width: 70px;
+  height: 30px;
+  box-sizing: border-box;
+  background-color: #4285F4;
+  border: none;
+  text-decoration: none;
+  border-radius: 3px;
+  color: #fff;
+  font-size: 0.8em;
+  text-align: center;
+  font-weight: bold;
+  letter-spacing: 1px;
+  margin-right: 15px;
+}
+
+.right-butts, .left-butts {
+}
+
+#reset-button {
+  background-color: #e0e3de;
+  color: #343634;
+}
+
+#start-button {
+  border: 1px solid #b5b0b0;
+}
+
+.fa-volume-up {
+  color: #b5b2b1;	
+  cursor: pointer;
+}
+
+.fa-expand {
+  color: #b5b2b1;
+  margin-left: 30px;
+  cursor: pointer
 }
