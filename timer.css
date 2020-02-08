@@ -135,6 +135,10 @@ body {
   outline: none;
 }
 
+.tab button:hover * {
+  color: #403d3d; 
+}
+
 .tab button span {
   margin-left: 10px;
   font-size: 0.8em;
@@ -142,15 +146,12 @@ body {
   color: #9c9897;
 }
 
-.tab button span:last-child {
+.tab button.active {
+  background-color: #ccc;
 }
 
-.tab button span:hover {
-  color: #333131;
-}
-
-.tab button:active {
-  border-bottom: 2px solid #4285F4;
+.tabcontent {
+  display: none;
 }
 
 .timer-content {
