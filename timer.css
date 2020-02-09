@@ -72,21 +72,14 @@ body {
 }
 
 .tab button {
-  font-size: 1.1em;
+  font-size: 0.9em;
   text-align: center;
   background-color: inherit;
   width: 50%;
   border: none;
   cursor: pointer;
   outline: none;
-}
-
-
-.tab button span {
-  margin-left: 10px;
-  font-size: 0.8em;
-  text-transform: uppercase;
-  color: #9c9897;
+  color: #adaaaa;;
 }
 
 .tab button.active  {
@@ -94,15 +87,16 @@ body {
   color: #4285F4;
 }
 
-.tab button.active span {
-  color: #4285F4;n
+.tab button.active:hover {
+  color: #4285F4;
 }
 
 .tab button:hover {
+  color: #474747;
 }
 
-.tab button:hover span {
-  color: #4a4747;
+.tab button span {
+  margin-left: 0.3em;
 }
 
 .tabcontent {
