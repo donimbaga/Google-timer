@@ -17,26 +17,30 @@
       <div class="timer-box">
 
         <div class="tab">
-          <button class="tablinks" onclick="openTab(event, 'Timer')" id="defaultOpen">
+          <button class="tablinks" onclick="openTab(event, 'timer')" id="defaultOpen">
             <span class="far fa-hourglass"></span> 
 	    <span>TIMER</span>
 	  </button>
 
-	  <button class="tablinks" onclick="openTab(event, 'Stopwatch')">
+	  <button class="tablinks" onclick="openTab(event, 'stopwatch')">
 	    <span class="fas fa-stopwatch"></span> 
 	    <span>STOPWATCH</span>
 	  </button>
 	</div>
 
-	<div id="Timer" class="tabcontent">
-          <p>Timer</p>
-	</div>
-
-	<div id="Stopwatch" class="tabcontent">
-          <p>Stopwatch</p>
-	</div>
-
 	<div class="timer-content">
+	  <div id="timer" class="tabcontent">
+            <div>
+	      <span>00<span>h</span></span>
+	      <span>00<span>m</span></span>
+	      <span>00<span>s</span></span>
+	    </div>
+	  </div>
+
+
+	  <div id="stopwatch" class="tabcontent">
+            <p>Stopwatch</p>
+	  </div>
 	</div>
 
 	<div class="timer-footer">
