@@ -55,10 +55,10 @@ body {
 
 .timer-box {
   box-sizing: border-box;
-  width: 115vh;
+  width: 120vh;
   height: 50vh;
-  border: 2px solid #dfe1e5;
-  border-radius: 5px;
+  border: 1px solid #dfe1e5;
+  border-radius: 7px;
   display: flex;
   flex-direction: column;
 }
@@ -66,9 +66,8 @@ body {
 .tab {
   display: flex;
   border-bottom: 1px solid #dfe1e5;
-  color: #bbbbbb;
   width: 100%;
-  height: 12vh;
+  height: 10vh;
 }
 
 .tab button {
@@ -80,7 +79,7 @@ body {
   border-bottom: 2px solid #ffffff;
   cursor: pointer;
   outline: none;
-  color: #adaaaa;;
+  color: #c7c7c7;
 }
 
 .tab button.active  {
@@ -121,7 +120,16 @@ body {
   height: 25vh;
   display: flex;
   align-items: center;
-  padding-left: 2em;
+}
+
+#timer {
+  width: 31%;
+  margin-left: 1.7em;
+  cursor: pointer;
+}
+
+#timer div {
+  border-bottom: 1px solid #dfe1e5;
 }
 
 #timer div > span {
@@ -133,9 +141,18 @@ body {
   font-size: 2.0rem;
 }
 
+#timer div > span:first-child {
+  display: none;
+}
+
+#stopwatch div > span:first-child {
+  display: none;
+}
+
+
 .timer-footer {
   border-top: 1px solid #dfe1e5;	
-  height: 13vh;
+  height: 15vh;
   display: flex;
   align-items: center; 
   justify-content: center;
