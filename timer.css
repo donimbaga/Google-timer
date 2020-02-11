@@ -122,33 +122,37 @@ body {
   align-items: center;
 }
 
+#timer, #stopwatch {
+  margin-left: 1em;
+  font-size: 3em;
+  display: inline;
+}
+
 #timer {
-  width: 31%;
-  margin-left: 1.7em;
-  cursor: pointer;
-}
+  border-bottom: 1px solid #dfe1e5; 
+}	
 
-#timer div {
-  border-bottom: 1px solid #dfe1e5;
-}
-
-#timer div > span {
-  font-size: 4em;
-  margin-left: 0.2em;
-}
-
-#timer div > span > span {
-  font-size: 2.0rem;
-}
-
-#timer div > span:first-child {
+#timer .hrs {
   display: none;
 }
 
-#stopwatch div > span:first-child {
+#stopwatch .hrs, 
+#stopwatch .mns {
   display: none;
 }
 
+
+#stopwatch p:last-child {
+  font-size: 0.7em;
+}
+
+p {
+  display: inline;
+}
+
+p > span {
+  font-size: 0.7em;
+}
 
 .timer-footer {
   border-top: 1px solid #dfe1e5;	
