@@ -191,10 +191,22 @@ p > span {
 #reset-button {
   background-color: #e0e3de;
   color: #343634;
+  border: 1px solid #bababa;
+  transition-duration: 0.3s
+}
+
+#reset-button:hover {
+  box-shadow: 0px 1px #bdbdbd;
+  border: 1px solid #8f8f8f;
 }
 
 #start-button {
   border: 1px solid #b5b0b0;
+}
+
+#start-button:hover {
+  background-color: #1d6efe;
+
 }
 
 .fa-volume-up {
