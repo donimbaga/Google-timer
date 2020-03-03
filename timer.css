@@ -55,9 +55,9 @@ body {
 
 .timer-box {
   box-sizing: border-box;
-  width: 120vh;
+  width: 60vw;
   height: 50vh;
-  border: 1px solid #dfe1e5;
+  border: 2px solid #dfe1e5;
   border-radius: 7px;
   display: flex;
   flex-direction: column;
@@ -67,7 +67,7 @@ body {
   display: flex;
   border-bottom: 1px solid #dfe1e5;
   width: 100%;
-  height: 10vh;
+  height: 20%;
 }
 
 .tab button {
@@ -117,7 +117,7 @@ body {
 
 .timer-content {
   width: 100%;
-  height: 25vh;
+  height: 50%;
   display: flex;
   align-items: center;
 }
@@ -157,7 +157,7 @@ p > span {
 
 .timer-footer {
   border-top: 1px solid #dfe1e5;	
-  height: 15vh;
+  height: 30%;
   display: flex;
   align-items: center; 
   justify-content: center;

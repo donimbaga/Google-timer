@@ -3,19 +3,15 @@
 
 Insipired by [Google Timer](https://www.google.com/search?q=timer).
 
+This is a learning project, whereby I'm learning using plain HTML & CSS and
+vanilla JS (plain stuff also).
 
-### To Do
 
-  * Fixing both inputs'
+#### To Do
 
-  * Making buttons to look more of Google ones
+ Making it responsive (looks better in every device)
 
-  * Adding mute icon in it's proper place
+ 
+ Creating a better way to input time stuffs
+ 
 
-  * Fixing stopwatch's icon issue
-
-  * Making timer functional 
-
-  * Making stopwatch functional 
-
-  * Making it responsive
