@@ -71,7 +71,7 @@ body {
 }
 
 .tab button {
-  font-size: 0.9em;
+  font-size: 0.8em;
   text-align: center;
   background-color: inherit;
   width: 50%;
@@ -125,7 +125,7 @@ body {
 #timer, #stopwatch {
   cursor: pointer;
   margin-left: 1em;
-  font-size: 4em;
+  font-size: 3em;
   display: inline-block;
 }
 
