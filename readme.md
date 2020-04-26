@@ -5,6 +5,8 @@ time in whatever task you are doing. Be it
 
 ## Description
 
+## Usage
+
 ## License
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
