@@ -1,5 +1,9 @@
 
-#  coldtimer
+#  Coldtimer
+A simple timer for people who loves and use timers. Timer is a great way to keep and track
+time in whatever task you are doing. Be it 
+
+## Description
 
 ## License
 
