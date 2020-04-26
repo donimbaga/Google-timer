@@ -1,5 +1,5 @@
 
-#  coldTimer
+#  coldtimer
 
 ## License
 
