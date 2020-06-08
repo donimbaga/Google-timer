@@ -1,7 +1,7 @@
 
 #  Coldtimer
-A simple timer for people who loves and use timers. Timer is a great way to keep and track
-time in whatever task you are doing. Be it 
+A simple web-based timer for people who love and use timers. Timer is a great way to keep and track
+time in whatever task you are doing. Be it cooking, exercising, or whatever.
 
 ## Description
 

@@ -55,8 +55,8 @@ body {
 
 .timer-box {
   box-sizing: border-box;
-  width: 60vw;
-  height: 50vh;
+  width: 53vw;
+  height: 42vh;
   border: 2px solid #dfe1e5;
   border-radius: 7px;
   display: flex;
