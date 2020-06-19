@@ -51,12 +51,17 @@ body {
   font-size: 1em;
   display: flex;
   justify-content: center;
+  align-items: center; 
+}
+
+.top-banner h2 {
+  color: #ccafaf;
 }
 
 .timer-box {
   box-sizing: border-box;
-  width: 53vw;
-  height: 42vh;
+  width: 60vw;
+  height: 45vh;
   border: 2px solid #dfe1e5;
   border-radius: 7px;
   display: flex;
@@ -217,3 +222,21 @@ p > span {
   margin-left: 30px;
   cursor: pointer
 }
+
+
+/* media queries  */
+
+@media screen and (max-width: 425px) {
+  .timer-box {
+    width: 90vw;
+    height: 50vh;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .timer-box {
+    width: 80vw;
+    height: 50vh;
+  }
+}
+
