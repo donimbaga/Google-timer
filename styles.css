@@ -129,7 +129,7 @@ body {
 
 #timer, #stopwatch {
   cursor: pointer;
-  margin-left: 1em;
+  margin-left: 0.6em;
   font-size: 3em;
   display: inline-block;
 }
@@ -228,15 +228,24 @@ p > span {
 
 @media screen and (max-width: 425px) {
   .timer-box {
-    width: 90vw;
+    width: 97vw;
     height: 50vh;
+    box-shadow: 0px 0px 8px #d6d2cf;
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 426px) and (max-width: 768px) {
   .timer-box {
-    width: 80vw;
+    width: 97vw;
     height: 50vh;
+    box-shadow: 0px 0px 8px #d6d2cf;
   }
 }
 
+@media screen and (min-width: 1024) {
+  .timer-box {
+    width: 65vw;
+    height: 50vh;
+    box-shadow: 0px 0px 8px #d6d2cf;
+  }
+}
