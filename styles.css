@@ -34,6 +34,7 @@ dd {
 body {
   min-height: 100vh;
   font-family: "Open Sans", sans-serif;
+  background-color: #EEF2F7;
 }
 
 .top-wrapper {
@@ -62,10 +63,12 @@ body {
   box-sizing: border-box;
   width: 60vw;
   height: 45vh;
-  border: 2px solid #dfe1e5;
+  border: 2px solid #ffffff;
   border-radius: 7px;
   display: flex;
   flex-direction: column;
+  background-color: #ffffff;
+  box-shadow: 0px 0px 12px 6px rgb(187, 187, 187)
 }
 
 .tab {
@@ -230,7 +233,6 @@ p > span {
   .timer-box {
     width: 97vw;
     height: 50vh;
-    box-shadow: 0px 0px 8px #d6d2cf;
   }
 }
 
@@ -238,7 +240,6 @@ p > span {
   .timer-box {
     width: 97vw;
     height: 50vh;
-    box-shadow: 0px 0px 8px #d6d2cf;
   }
 }
 
@@ -246,6 +247,5 @@ p > span {
   .timer-box {
     width: 65vw;
     height: 50vh;
-    box-shadow: 0px 0px 8px #d6d2cf;
   }
 }
