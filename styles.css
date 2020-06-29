@@ -213,6 +213,14 @@ p > span {
   background-color: #1d6efe;
 }
 
+.right-butts {
+  background-color: red;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
 .fa-volume-up {
   color: #b5b2b1;	
   cursor: pointer;
@@ -224,6 +232,11 @@ p > span {
   cursor: pointer
 }
 
+.slash {
+  color: #b5b2b1;
+  z-index: 2;
+  font-size: 1.6em;
+}
 
 /* media queries  */
 
