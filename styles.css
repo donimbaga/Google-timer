@@ -214,28 +214,22 @@ p > span {
 }
 
 .right-butts {
-  background-color: red;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
-}
-
-.fa-volume-up {
   color: #b5b2b1;	
   cursor: pointer;
 }
 
-.fa-expand {
-  color: #b5b2b1;
-  margin-left: 30px;
-  cursor: pointer
+.fa-volume-up {
 }
 
-.slash {
-  color: #b5b2b1;
-  z-index: 2;
-  font-size: 1.6em;
+.fa-expand {
+  margin-left: 2em;
+}
+
+.fa-volume-mute {
 }
 
 /* media queries  */
