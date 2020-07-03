@@ -1,4 +1,7 @@
+// doni brysoni mbaga
 
+
+const counter = 0;
 
 function openTab(evt, tabName) {
   var i, tabcontent, tablinks;
