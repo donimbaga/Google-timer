@@ -222,14 +222,9 @@ p > span {
   cursor: pointer;
 }
 
-.fa-volume-up {
-}
-
-.fa-expand {
-  margin-left: 2em;
-}
-
-.fa-volume-mute {
+/* icons */
+.icon {
+  width: 1.2em;
 }
 
 /* media queries  */
