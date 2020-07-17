@@ -218,22 +218,16 @@ p > span {
 }
 
 .right-butts {
+  width: 4em;
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
   color: #b5b2b1;	
   cursor: pointer;
 }
 
 /* icons */
-
-.right-butts .icons {
-  width: 1.5em;
-  height: 1.5em;
-  margin-left: 1.4em;
-  filter: invert(60%);
-}
 
 svg {
   vertical-align: sub;
