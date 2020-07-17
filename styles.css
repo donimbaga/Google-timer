@@ -228,11 +228,18 @@ p > span {
 
 /* icons */
 
+.right-butts .icons {
+  width: 1.5em;
+  height: 1.5em;
+  margin-left: 1.4em;
+  filter: invert(60%);
+}
+
 svg {
   vertical-align: sub;
   width: 1.25em;
   height: 1.25em;
-  fill: #777777;
+  fill: #777777; 
 }
 
 svg.active {
