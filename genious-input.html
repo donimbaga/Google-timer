@@ -1,2 +1,60 @@
 <!-- Doni Brysoni Mbaga -->
 <!-- The way to input numbers in google-timer is so cool -->
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      .big-box {
+        background-color: #e2e2e2;
+        width: 75vw;
+        height: 80vh;
+        margin: 0 auto;
+      } 
+  
+      span {
+        font-size: 1.5rem;
+      }
+
+      .cool-input {
+        width: 70%;
+        height: 30%;
+        background-color: #efefef;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: cente;
+      }
+      input {
+        width: 50%;
+      }
+
+      /* Chrome, Safari, Edge, Opera */
+      input::-webkit-out-spin-button,
+      input::-webkit-inner-spin-button {
+        -webkit-appearance: none;
+        margin: 0;
+      }
+      
+      /* Firefox */
+      input[type=number] {
+        -moz-appearance: textfield; 
+      }
+    </style>
+  </head>
+  <body>
+    <div class="big-box">
+      <div class="cool-input">
+        <div class="span-cards">
+          <span>00</span>
+          <span>h</span>
+          <span>00</span>
+          <span>m</span>
+          <span>00</span>
+          <span>s</span>
+        </div>
+        <input type="number">
+      </div>
+    </div>
+  </body>
+</html>
