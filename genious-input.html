@@ -3,60 +3,77 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <link rel="stylesheet" href="/home/doni-box/programming/playground/css-reset.css" 
+    type="text/css">
     <style>
-      .big-box {
-        background-color: #e2e2e2;
-        width: 75vw;
-        height: 80vh;
-        margin: 0 auto;
-        display: flex;
-        align-items: center; 
-      } 
-  
-      span {
-        font-size: 1.5rem;
-      }
-
-      .cool-input {
-        width: 70%;
-        height: 30%;
-        background-color: #efefef;
-        margin: 0 auto;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-      }
-      input {
-        width: 50%;
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
       }
 
       /* Chrome, Safari, Edge, Opera */
-      input::-webkit-out-spin-button,
+      input::-webkit-outer-spin-button,
       input::-webkit-inner-spin-button {
         -webkit-appearance: none;
         margin: 0;
       }
-      
+
       /* Firefox */
       input[type=number] {
-        -moz-appearance: textfield; 
+        -moz-appearance: textfield;
+      }
+
+      .wrapper { 
+        width: 80vw;
+        height: 80vh;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+      }
+ 
+      .box {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .box div {
+        width: 70%;
+        font-size: 1.7rem;
+      }
+
+      .symbols {
+        font-size: 1rem;
+        margin-left: -5px;
       }
     </style>
   </head>
   <body>
-    <div class="big-box">
-      <div class="cool-input">
-        <div class="span-cards">
+    <div class="wrapper">
+      <div class="box">
+        <div>
           <span>00</span>
-          <span>h</span>
+          <span class="symbols">h</span>
           <span>00</span>
-          <span>m</span>
+          <span class="symbols">m</span>
           <span>00</span>
-          <span>s</span>
+          <span class="symbols">s</span>
         </div>
-        <input type="number">
+        <div>
+          <input type="number">
+        </div>
+        <p id="demo"></p>
       </div>
     </div>
+   
+    <script>
+      function writeSomething() {
+        const x = document.getElementsByTagName("input")[0];
+        document.getElementById("demo").innerHTML = "" + x;
+      }
+    </script>
   </body>
 </html>
