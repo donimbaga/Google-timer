@@ -1,7 +1,7 @@
 
-![alt text] (./https://raw.githubusercontent.com/donimbaga/coldtimer/master/image1.png)
+![alt text](image1.png)
 
-![alt text] (./https://raw.githubusercontent.com/donimbaga/coldtimer/master/image2.png)
+![alt text](image2.png)
 
 #  Coldtimer
 A simple web-based timer for people who love and use timers. Timer is a great way to keep and track
