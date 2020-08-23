@@ -6,6 +6,8 @@ A simple web timer timer users and lovers. I love and use timer for my tasks oft
 
 ## Table Of Contents
    - [Description](#Description)
+   - [Technologies](#Technologies)
+   - [Status](#Status)
 
 
 ## Description
@@ -25,7 +27,7 @@ It doesn't not look exactly like the Google one but it's functions are the same.
 
    
 ## Status
-***In progress***
+*In progress*
 
 
 ## License
@@ -33,4 +35,4 @@ It doesn't not look exactly like the Google one but it's functions are the same.
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Contact
-Created by - https://twitter.com/doni_mbaga
+Created by - [@donimbaga](https://twitter.com/doni_mbaga)
