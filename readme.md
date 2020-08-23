@@ -1,5 +1,5 @@
 
-![alt text](gif1.gif)
+![alt text](1.png)
 
 #  Coldtimer
 A simple web-based timer for people who love and use timers. Timer is a great way to keep and track
