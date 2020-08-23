@@ -2,37 +2,38 @@
 ![alt text](one.png)
 
 #  Coldtimer
-A simple web timer timer users and lovers. I love and use timer for my tasks often. 
+A simple timer on your web browser. 
 
 ## Table Of Contents
    - [Description](#Description)
    - [Technologies](#Technologies)
    - [Status](#Status)
+   - [Licence](#Licence)
+   - [Contact](#Contact)
 
 
 ## Description
-This is a learning project. The aim is to ounderstand and practice the Html, Css
-and Js fundamentals. I'm inspired by Google Timer which is one of my favorite tool on the internet.
-It doesn't not look exactly like the Google one but it's functions are the same.
+This is a learning project. The aim is to understand and practice HTML, CSS and JS fundamentals.  
+I like using Google Timer, it's one of my favorite tool on the internet.
 
 
 ## Technologies
-- HTML: Hypertext Markup Language is the standard markup language for documents designed to 
-          be displayed in a web browser
-   
-- Css:  Cascading Style Sheets is a style sheet language used for describing the presentation 
-          of a document written in a markup language like HTML
+- HTML 
 
-- Vanilla JS: a plain JavaScript without any additional libraries like jQuery.
+- CSS
 
+- Vanilla JS
+
+## Features
+
+## ToDo List
    
 ## Status
 *In progress*
 
 
 ## License
-
-![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Contact
 Created by - [@donimbaga](https://twitter.com/doni_mbaga)
