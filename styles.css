@@ -124,7 +124,7 @@ body {
 #timer, #stopwatch {
   cursor: pointer;
   margin-left: 0.6em;
-  font-size: 3em;
+  font-size: 4em;
   display: inline-block;
 }
 
