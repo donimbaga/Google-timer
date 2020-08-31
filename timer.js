@@ -1,5 +1,4 @@
-// doni brysoni mbaga
-
+/* Doni Brysoni Mbaga */
 
 const counter = 0;
 

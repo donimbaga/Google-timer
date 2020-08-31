@@ -14,7 +14,8 @@ A simple timer on your web browser.
 
 ## Description
 This is a learning project. The aim is to understand and practice HTML, CSS and JS fundamentals.  
-I like using Google Timer, it's one of my favorite tool on the internet.
+I like using Google Timer, it's one of my favorite tool on the internet. So I'm creating this  
+to apply what I've learnt so far. This tool can be accessed through any web browser on any device
 
 
 ## Technologies
