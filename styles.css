@@ -149,10 +149,10 @@ body {
 .dgt {
   cursor: pointer;
   height: 50%;
-  position: absolute;
-  top: 22%;
   left: 1.0em;
   border-bottom: 1px solid #dfe1e5;
+  position: absolute;
+  top: 20%;
 }
 
 .dgt span > span {
@@ -161,6 +161,17 @@ body {
 
 .dgt > span:first-child  {
   display: none;
+}
+
+.dgt input {
+  display: block;
+  position: absolute;
+  top: 30px;
+  left: 20px;
+  height: 0px;
+  width: 0px;
+  z-index: -2;
+  opacity: 0;
 }
 
 .timer-footer {
@@ -278,8 +289,3 @@ input::-webkit-inner-spin-button {
 input[type=number] {
   -moz-appearance: textfield;
 }
-
-input {
-  display: block;
-}
-
