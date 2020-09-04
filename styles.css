@@ -66,7 +66,7 @@ body {
 }
 
 /* remove dotted focus outline when click */
-button::-moz-focus-inner {
+::-moz-focus-inner {
   border: 0;
 }
 
@@ -119,44 +119,44 @@ button::-moz-focus-inner {
   to {opacity: 1}
 }
 
-.timer-content {
+.tmr-content {
+  font-size: 3rem;
   width: 100%;
   height: 50%;
-  display: flex;
-  align-items: center;
 }
 
-#timer, #stopwatch {
+.tmr-crd {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.stopwatch-card {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.stopwatch-card .digits .hrs,
+.stopwatch-card .digits .mns {
+  display: none; 
+}
+
+.digits {
   cursor: pointer;
-  margin-left: 0.6em;
-  font-size: 4em;
-  display: inline-block;
+  height: 50%;
+  position: absolute;
+  top: 22%;
+  left: 1.0em;
+  border-bottom: 1px solid #dfe1e5;
 }
 
-#timer {
-  border-bottom: 1px solid #dfe1e5; 
-}	
+.digits span > span {
+  font-size: 1.5rem;
+}
 
-#timer .hrs {
+.digits > span:first-child  {
   display: none;
-}
-
-#stopwatch .hrs, 
-#stopwatch .mns {
-  display: none;
-}
-
-
-#stopwatch p:last-child {
-  font-size: 0.7em;
-}
-
-p {
-  display: inline;
-}
-
-p > span {
-  font-size: 0.5em;
 }
 
 .timer-footer {
@@ -211,18 +211,18 @@ p > span {
   background-color: #1d6efe;
 }
 
-.right-butts {
-  width: 4em;
+.btn-right {
+  width: 5em;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
   color: #b5b2b1;	
-  cursor: pointer;
 }
 
-.right-butts .icons img {
+.btn-right .icons img {
   opacity: 0.5;
+  cursor: pointer;
 }
 
 /* icons */
@@ -261,11 +261,21 @@ svg.active {
   }
 }
 
-.hid-timer-input {
+/* Remove number default slider on input element */
+
+/* Chrome, safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+input {
   display: block;
-  position: absolute;
-  /*width: 0px;
-  opacity: 0;
-  z-index: -2;*/
 }
 

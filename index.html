@@ -14,7 +14,7 @@
       <div class="timer-box">
 
         <div class="tab">
-          <button class="tablinks" onclick="openTab(event, 'timer')" id="defaultOpen">
+          <button class="tablinks" onclick="openTab(event, 'tmr')" id="defaultOpen">
             <span class="sandclock-icon icons"> 
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" fill="#000000">
     <path d="M12 5v10l9 9-9 9v10h24V33l-9-9 9-9V5H12zm20 29v5H16v-5l8-8 8 8zm-8-12l-8-8V9h16v5l-8 8z"/>
@@ -36,22 +36,21 @@
 	  </button>
 	</div>
 
-	<div class="timer-content">
-	  <div id="timer" class="tabcontent">
-        <div>
-          <p class="hrs">00<span>h</span></p>
-          <p class="mns">5<span>m</span></p>
-          <p class="scs">00<span>s</span></p>
-          <input type="number" class="hid-timer-input">
-	    </div>
+	<div class="tmr-content">
+	  <div id="tmr" class="tabcontent tmr-crd">
+        <div class="digits">
+          <span class="hrs">00<span>h</span></span>
+          <span class="mns">5<span>m</span></span>
+          <span class="scs">00<span>s</span></span>
+        </div>
 	  </div>
 
-	  <div id="stopwatch" class="tabcontent">
-        <div>
-          <p class="hrs">00<span>h</span></p>
-          <p class="mns">5<span>m</span></p>
-          <p class="scs">0<span>s</span></p>
-          <p class="scs">00</span></p>
+	  <div id="stopwatch" class="tabcontent stopwatch-card">
+        <div class="digits">
+          <span class="hrs">00<span>h</span></span>
+          <span class="mns">5<span>m</span></span>
+          <span class="scs">0<span>s</span></span>
+          <span class="scs">00</span></span>
 	    </div>
 	  </div>
 	</div>
@@ -64,9 +63,8 @@
               <button id="reset-button">RESET</button> 
 	    </div>
 
-	    <div class="right-butts">
-              <i class="volume-icon icons"><img src="assets/icons/volume.png" /></i>
-
+	    <div class="btn-right">
+          <i class="volume-icon icons"><img src="assets/icons/volume.png" /></i>
 	      <i class="fullscreen-icon icons"><img src="assets/icons/full-screen.png" /></i>
 	    </div>
 
