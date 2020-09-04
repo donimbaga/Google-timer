@@ -131,14 +131,14 @@ body {
   position: relative;
 }
 
-.stopwatch-card {
+.stpwtch-card {
   width: 100%;
   height: 100%;
   position: relative;
 }
 
-.stopwatch-card .digits .hrs,
-.stopwatch-card .digits .mns {
+.stpwtch-card .digits .hrs,
+.stpwtch-card .digits .mns {
   display: none; 
 }
 
