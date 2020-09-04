@@ -137,12 +137,12 @@ body {
   position: relative;
 }
 
-.stpwtch-card .digits .hrs,
-.stpwtch-card .digits .mns {
+.stpwtch-card .dgt .hrs,
+.stpwtch-card .dgt .mns {
   display: none; 
 }
 
-.digits {
+.dgt {
   cursor: pointer;
   height: 50%;
   position: absolute;
@@ -151,11 +151,11 @@ body {
   border-bottom: 1px solid #dfe1e5;
 }
 
-.digits span > span {
+.dgt span > span {
   font-size: 1.5rem;
 }
 
-.digits > span:first-child  {
+.dgt > span:first-child  {
   display: none;
 }
 
