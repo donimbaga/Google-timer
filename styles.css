@@ -269,13 +269,6 @@ svg.active {
   }
 }
 
-@media screen and (min-width: 769px) {
-  .timer-box {
-    width: 80vw;
-    height: 50vh;
-  }
-}
-
 /* Remove number default slider on input element */
 
 /* Chrome, safari, Edge, Opera */
