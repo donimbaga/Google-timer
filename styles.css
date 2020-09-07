@@ -148,8 +148,7 @@ body {
 
 .dgt {
   cursor: pointer;
-  height: 50%;
-  left: 1.0em;
+  left: 1em;
   border-bottom: 1px solid #dfe1e5;
   position: absolute;
   top: 20%;
