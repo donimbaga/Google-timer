@@ -18,10 +18,4 @@ function openTab(evt, tabName) {
 
 document.getElementById("defaultOpen").click();
 
-const input = document.getElementsByTagName("input")[0];
-
-input.addEventListener("click", doSomething);
-
-function doSomething() {
-  console.log("Somebody has just clicked");
-}
+const tmr_card = document.querySelector(".dgt");
