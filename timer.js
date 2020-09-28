@@ -18,4 +18,4 @@ function openTab(evt, tabName) {
 
 document.getElementById("defaultOpen").click();
 
-const tmr_card = document.querySelector(".dgt");
+const tmrCard = document.querySelector(".dgt");
