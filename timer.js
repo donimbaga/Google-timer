@@ -18,4 +18,5 @@ function openTab(evt, tabName) {
 
 document.getElementById("defaultOpen").click();
 
-const tmrCard = document.querySelector(".dgt");
+const tmr_card = document.querySelector(".dgt");
+tmr_card.addEventListener("click", (function() {console.log("User has clicked a div")}));
