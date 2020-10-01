@@ -39,4 +39,4 @@ to apply what I've learnt so far. This tool can be accessed through any web brow
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Contact
-Created by - [@donimbaga](https://twitter.com/doni_mbaga)
+Created by - Doni Brysoni Mbaga [@donimbaga](https://twitter.com/doni_mbaga)
